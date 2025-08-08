@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>销售中心业务流程</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/销售中心业务流程/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/销售中心业务流程/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u999" class="ax_default heading_2">
+        <div id="u999_div" class=""></div>
+        <div id="u999_text" class="text ">
+          <p><span style="font-family:'FontAwesome Bold', 'FontAwesome Regular', 'FontAwesome';font-weight:700;">业务流程：</span></p><p><span style="font-family:'FontAwesome';font-weight:400;">1、卖货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1000" class="ax_default heading_2">
+        <div id="u1000_div" class=""></div>
+        <div id="u1000_text" class="text ">
+          <p><span>2、退货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u1001" class="ax_default image">
+        <img id="u1001_img" class="img " src="images/销售中心业务流程/u1001.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1002" class="ax_default heading_2">
+        <div id="u1002_div" class=""></div>
+        <div id="u1002_text" class="text ">
+          <p><span>3、换货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u1003" class="ax_default image">
+        <img id="u1003_img" class="img " src="images/销售中心业务流程/u1003.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1004" class="ax_default sticky_3">
+        <div id="u1004_div" class=""></div>
+        <div id="u1004_text" class="text ">
+          <p><span>流程说明：</span></p><p><span>JHERP系统通过电商平台提供的销售列表查询接口（taobao.trades.sold.get）获取买家订单信息，根据电商平台订单信息自动创建销售单，为销售单分配商品（执行分配策略）；销售人员确认销售单后系统生成出货单（目的是检查商品信息是否需要修改）；仓管人员凭单拣货并由人员后续打包发货。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1005" class="ax_default sticky_3">
+        <div id="u1005_div" class=""></div>
+        <div id="u1005_text" class="text ">
+          <p><span>流程说明：</span></p><p><span>JHERP系统通过电商平台提供的退款列表查询接口（taobao.refunds.receive.get）和单笔退款详情接口（taobao.refund.get）获取卖家收到的退货单信息。当退款单状态为买家退货且已发货时，系统自动创建退货单，销售人员收到货后确认货符合退货条件即确认退货，系统自动生成入库单。仓库管理员将货入库并回归仓位。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u1006" class="ax_default image">
+        <img id="u1006_img" class="img " src="images/销售中心业务流程/u1006.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1007" class="ax_default sticky_3">
+        <div id="u1007_div" class=""></div>
+        <div id="u1007_text" class="text ">
+          <p><span>流程说明：</span></p><p><span>JHERP系统通过电商平台提供的换货列表查询接口（taobao.refunds.receive.get）和单笔换货详情接口（taobao.refund.get）获取卖家收到的换货信息和状态。当换货单状态为买家已发货时，系统自动创建换货销售单和退货单，后续换货销售单执行卖货流程，退货单执行退货流程。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (说明文页面格式) -->
+
+      <!-- Unnamed (热区) -->
+      <div id="u1009" class="ax_default">
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u1010" class="ax_default">
+      </div>
+    </div>
+  </body>
+</html>
